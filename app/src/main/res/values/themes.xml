@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Основная тема приложения -->
+    <style name="Theme.Wave" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Основные цвета -->
+        <item name="colorPrimary">@color/wave_purple_accent</item>
+        <item name="colorPrimaryVariant">@color/wave_purple_3</item>
+        <item name="colorOnPrimary">@color/icon_color</item>
+        
+        <!-- Вторичные цвета -->
+        <item name="colorSecondary">@color/wave_purple_2</item>
+        <item name="colorSecondaryVariant">@color/wave_purple_3</item>
+        <item name="colorOnSecondary">@color/icon_color</item>
+        
+        <!-- Фон и поверхность -->
+        <item name="android:colorBackground">@color/wave_purple_1</item>
+        <item name="colorSurface">@color/wave_purple_2</item>
+        <item name="colorOnSurface">@color/icon_color</item>
+        <item name="colorOnBackground">@color/icon_color</item>
+        
+        <!-- Статус бар и навигация -->
+        <item name="android:statusBarColor">@color/wave_purple_1</item>
+        <item name="android:navigationBarColor">@color/wave_purple_1</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        
+        <!-- Для поддержки Splash Screen API -->
+        <item name="android:windowSplashScreenBackground">@color/wave_purple_1</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+    </style>
+
+    <!-- Splash Screen тема -->
+    <style name="Theme.Wave.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/wave_splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.Wave</item>
+    </style>
+
+</resources>

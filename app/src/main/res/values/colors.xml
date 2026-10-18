@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="wave_purple_1">#120024</color>
+    <color name="wave_purple_2">#1A0038</color>
+    <color name="wave_purple_3">#2A0066</color>
+    <color name="wave_purple_accent">#6A00FF</color>
+    <color name="wave_gradient_start">#1A0038</color>
+    <color name="wave_gradient_end">#6A00FF</color>
+    <color name="black">#000000</color>
+    <color name="icon_color">#FFFFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

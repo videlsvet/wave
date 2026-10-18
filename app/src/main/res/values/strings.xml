@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 🌊 Основное -->
+    <string name="app_name">Wave</string>
+
+    <!-- 🎧 Уведомления -->
+    <string name="notification_channel_name">Воспроизведение музыки</string>
+    <string name="notification_channel_desc">Уведомления плеера Wave</string>
+
+    <!-- ⏯️ Кнопки -->
+    <string name="action_play">Воспроизвести</string>
+    <string name="action_pause">Пауза</string>
+    <string name="action_next">Следующий трек</string>
+    <string name="action_previous">Предыдущий трек</string>
+
+    <!-- 🪩 Статусы -->
+    <string name="no_tracks">Нет треков</string>
+    <string name="loading">Загрузка...</string>
+    <string name="now_playing">Сейчас играет</string>
+
+    <!-- 🎵 Дополнительные строки для плеера -->
+    <string name="player_ready">Готов к воспроизведению</string>
+    <string name="player_buffering">Буферизация...</string>
+    <string name="player_error">Ошибка воспроизведения</string>
+    <string name="player_unknown_artist">Неизвестный исполнитель</string>
+    <string name="player_unknown_title">Неизвестный трек</string>
+    
+    <!-- 📱 Интерфейс -->
+    <string name="search_hint">Поиск музыки...</string>
+    <string name="playlists">Плейлисты</string>
+    <string name="favorites">Избранное</string>
+    <string name="history">История</string>
+    
+    <!-- 🔧 Системные -->
+    <string name="foreground_notification_title">Wave Player</string>
+    <string name="foreground_notification_text">Воспроизведение музыки</string>
+
+</resources>

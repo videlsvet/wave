@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Чёрный фон -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M0,0h108v108h-108z" />
+
+    <!-- Виниловый диск -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,20 a34,34 0 1,0 0.1,0z" />
+
+    <!-- Центральное отверстие -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M54,48 a6,6 0 1,0 0.1,0z" />
+
+    <!-- Малый радиальный штрих (дорожка справа) -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M70,56 A18,18 0 0,1 76,48" />
+
+    <!-- Надпись WAVE -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M20,80 L24,68 L28,80 L32,68 L36,80
+            M42,68 L42,80 L46,80 L46,68
+            M52,68 L56,80 L60,68 L64,80
+            M70,68 L74,80 L78,68" />
+</vector>
